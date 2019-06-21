@@ -1,0 +1,40 @@
+<div class="container mt-2">
+    <div class="row ">
+        <div class="col-md-8 m-auto">
+            {{#if msg}}
+            <h1 class="text-center text-info my-3" style="font-size:2rem">
+                <span class="text-success">{{msg}}</span><br> You have voted for {{votedfor}}
+            </h1>
+            <a href="/public/result" class="btn btn-block btn-outline-success mt-3">View Result</a>
+            {{/if}}
+            {{#if name}}
+            <h1 class="text-center text-info my-3" style="font-size:2rem">
+                Keep it cool {{name}} <br />
+                You have already voted for {{votedfor}}
+            </h1>
+            {{/if}}
+        </div>
+    </div>
+    {{#if lang}}
+    <table class="table table-hover table-dark">
+        <h2 class="text-warning my-4"><u>Result table</u></h2>
+        <thead>
+            <tr class="bg-primary">
+                <th scope="col">#</th>
+                <th scope="col">Language</th>
+                <th scope="col">Total Votes</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each lang}}
+            <tr>
+                <th scope="row">{{id}}</th>
+                <td>{{language}}</td>
+                <td>{{votes}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+
+    </table>
+    {{/if}}
+</div>

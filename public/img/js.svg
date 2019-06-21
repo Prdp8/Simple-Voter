@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <g id="js">
+      <g id="Group_6" data-name="Group 6" transform="translate(14 14)">
+        <g id="Group_5" data-name="Group 5">
+          <circle id="Ellipse_3" data-name="Ellipse 3" cx="86.5" cy="86.5" r="86.5" fill="#f0db4f"/>
+        </g>
+      </g>
+      <g id="Layer_1_1_" transform="translate(53.28 65.5)">
+        <g id="Group_8" data-name="Group 8" transform="translate(0)">
+          <g id="Group_7" data-name="Group 7">
+            <path id="Path_9" data-name="Path 9" d="M56.95,44.6H72.175V87.475c0,19.25-9.275,26.075-23.975,26.075A37.659,37.659,0,0,1,37,111.975L38.75,99.55a25.653,25.653,0,0,0,7.875,1.225c6.475,0,10.5-2.975,10.5-13.3L56.95,44.6Z" transform="translate(-37 -43.55)" fill="#323330"/>
+            <path id="Path_10" data-name="Path 10" d="M66.15,97.2a39.05,39.05,0,0,0,16.975,4.2c7,0,10.675-2.975,10.675-7.525,0-4.2-3.15-6.65-11.375-9.45C71.225,80.4,63.7,74.1,63.7,64.125,63.7,52.75,73.5,44,89.425,44c7.7,0,13.3,1.575,17.325,3.5l-3.5,12.25a32.934,32.934,0,0,0-14-3.15c-6.65,0-9.8,3.15-9.8,6.475,0,4.375,3.675,6.3,12.6,9.625,11.9,4.375,17.5,10.675,17.5,20.3,0,11.375-8.575,21-27.3,21-7.7,0-15.4-2.1-19.25-4.2Z" transform="translate(-17.5 -44)" fill="#323330"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

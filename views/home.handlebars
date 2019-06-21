@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row ">
+        <div class="col-md-8 m-auto">
+            <h1 class="text-center text-light my-5">
+                Vote for your favourite programming language!!
+            </h1>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-6 ">
+            <div class="card bg-secondary">
+                <div class="card-header text-center bg-dark">
+                    <span class="text-light"> Login / Signup to vote</span>
+                </div>
+                <div class=" card-body m-auto">
+                    <form action="/auth/google" method="get">
+                        <button type="submit" class="btn btn-danger mb-4">
+                            <i class="fab fa-google mr-2"></i> Sign Up with Google</button><br />
+                        <button type="button" class="btn btn-primary">
+                            <i class="fab fa-facebook-f mr-2"></i> Sign Up with Facebook
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h6 class="mt-5 text-muted text-center"> To view final results, click the link below.</h6>
+    <a href="/public/result" class="btn btn-block btn-outline-success mt-3 ">View Result</a>
+</div>

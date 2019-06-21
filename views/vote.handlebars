@@ -1,0 +1,48 @@
+<div class="container mt-3">
+    <div class="row ">
+        <div class="col-md-8 m-auto">
+            <h1 class="text-center text-primary my-4">
+                Welcome {{name}} <br>Choose one programming language of your choice !
+            </h1>
+        </div>
+    </div>
+    <form id="vote-form" method="post" action="/auth/vote">
+        <div class="row mb-3">
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/c.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="c" type="submit">Vote
+                </button>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/python.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="python" type="submit">Vote
+                </button> </div>
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/java.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="java" type="submit">Vote
+                </button> </div>
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/c++.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="cplusplus" type="submit">Vote
+                </button> </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/js.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="javascript" type="submit">Vote
+                </button> </div>
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/golang.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="golang" type="submit">Vote
+                </button> </div>
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/swift.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="swift" type="submit">Vote
+                </button> </div>
+            <div class="col-lg-3 col-md-6 text-center mb-4">
+                <img src="/img/php.svg" class="rounded-circle mb-4" /><br />
+                <button class="btn btn-primary btn-lg" name="key" value="php" type="submit">Vote
+                </button> </div>
+        </div>
+    </form>
+</div>
